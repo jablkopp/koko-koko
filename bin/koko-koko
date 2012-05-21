@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 require 'koko-koko'
-
+puts 'Koko koko euro spoko...'
 Process.daemon
 
 while true
   Koko::Koko.koko
-  sleep 30
+  sleep 15
 end
