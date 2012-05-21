@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require 'koko-koko'
+
+Process.daemon
+
+while true
+  Koko::Koko.koko
+  sleep 30
+end

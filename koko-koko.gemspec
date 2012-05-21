@@ -4,8 +4,8 @@ require File.expand_path('../lib/koko-koko/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Marcin Stecki"]
   gem.email         = ["madsheeppl@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Random process killer.}
+  gem.summary       = %q{As fun as its name.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
